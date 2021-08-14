@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  background-color: aliceblue;
+  color: black;
+  text-align: center;
+  height: 800px;
+}
+
+header {
+  width: 100%;
+  filter: opacity(0.7);
+background-color: rgba(0, 146, 243, 0.664);
+height: 25%;
+border-radius: 0 0 160px 160px;
+}
+
+header h2 {
+  color: aliceblue;
+  font-size: xx-large;
+  font-family: 'Russo One', sans-serif;
+  letter-spacing: 0.1em;
+  text-shadow: #FC0 1px 0 10px;
+}
+
+main {
+  width: 100%;
+height: 65%;
+font-family: 'Atkinson Hyperlegible', sans-serif;
+font-size: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 175px;
+}
+
+form input {
+  border: 2px solid black;
+  height: 25px;
+  width: 85%;
+}
+
+form button {
+  width: 150px;
+  height: 100px;
+  filter: opacity(0.7);
+  background-color: rgba(0, 146, 243, 0.664);
+  border-radius: 50px;
+  font-family: 'Russo One', sans-serif;
+  letter-spacing: 0.1em;
+  color: aliceblue;
+  font-size: x-large;
+}
+
+#output {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+#output input {
+  border: none;
+  height: 45px;
+  width: 85%;
+}
+
+#output button {
+  margin-top: 10px;
+  width: 150px;
+  height: 50px;
+  filter: opacity(0.7);
+  background-color: rgba(0, 146, 243, 0.664);
+  border-radius: 50px;
+  font-family: 'Russo One', sans-serif;
+  letter-spacing: 0.1em;
+  color: aliceblue;
+  font-size: medium;
+}
+#pop-message {
+  color: crimson;
+}
+
+footer {
+  margin-top: 10px;
+  font-family: 'Russo One', sans-serif;
+  width: 100%;
+  filter: opacity(0.7);
+background-color: rgba(0, 146, 243, 0.664);
+height: 10%;
+border-radius: 100px 100px 0 0;
+}
