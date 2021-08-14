@@ -13,6 +13,7 @@ $(document).ready(function(){
   $("#clapify").on("click", () => {
     let myString = $(".user-input").val();
     $("#myOutput").val((clapWords(myString)));
+    $(".user-input").val("");
   })
 
   $("#copyButton").on("click", () => {
