@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="script.js"></script>
   <link rel="stylesheet" href="style.css">
   <title>Word Clap</title>
 </head>
@@ -15,10 +16,10 @@
   </header>
   <main>
     <h3>Enter your sentence:</h3>
-    <form action=".">
-      <input type="text">
-      <button>CLAPIFY</button>
-    </form>
+    <div class="form" >
+      <input class="user-input" type="text">
+      <button id="clapify">CLAPIFY</button>
+    </div>
     <h4>Get the clap:</h4>
     <p>⇩⇩⇩⇩⇩⇩⇩⇩⇩</p>
     <div id="output">
@@ -26,7 +27,7 @@
 <input type="text" id="myOutput">
 
 <!-- The button used to copy the text -->
-<button id="copyButton" onclick="copyText()">Copy text</button>
+<button id="copyButton">Copy text</button>
 </div>
 <p id="pop-message">Text copied</p>
   </main>
@@ -34,6 +35,5 @@
 <p>Brought to you by:</p>
 <h4>Cup O'Kyle Apps</h4>
   </footer>
-  <script src="script.js"></script>
 </body>
 </html>
