@@ -48,7 +48,9 @@ font-size: 20px;
 
 .form input {
   border: 2px solid black;
-  height: 25px;
+  font-size: medium;
+  font-weight: bold;
+  height: 45px;
   width: 85%;
 }
 
@@ -76,6 +78,8 @@ font-size: 20px;
   border: none;
   height: 45px;
   width: 85%;
+  font-size: large;
+  font-weight: bold;
 }
 
 #output button {
